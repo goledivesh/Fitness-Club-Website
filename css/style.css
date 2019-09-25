@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Tangerine');
+
+body{
+    margin-top: 40px;
+    user-select: none;
+    transition: .5s;
+}
+body>p{
+    font-weight: bold;
+}
+.navbar{
+    padding: 10px;
+}
+.navbar li a{
+    margin-left: 10px;
+    display: inline-block;
+}
+.navbar li a:hover{
+    color: orangered;
+    border-bottom: 1px solid rgb(241, 108, 93);
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.carousel-inner img{
+    height: 500px;
+}
+.carousel-inner .item h2{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    color: black;
+    font-size: 40px;
+    font-family: forte;
+    font-weight: bold;
+}
+.imageGrid{
+    width: 100%;
+    height: auto;
+    background: rgb(241, 108, 93);
+}
+.imageGrid img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.imageGrid .card p{
+    font-size: 13px;
+    color: white;
+}
+.booking{
+    margin: 40px;
+}
+.booking h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.formField{
+    background: rgb(241, 108, 93);
+    padding: 20px 60px;
+    border-radius: 5px;
+}
+.form-group input[type=text],
+.form-group input[type=date],
+.form-group select{
+    background: white;
+    border: none;
+    font-style: italic;
+    color: black;
+    outline: none;
+}
+.form-group input[type=text]:focus,
+.form-group input[type=date]:focus,
+.form-group select:focus{
+    border-bottom: 1px solid black;
+}
+.form-group input::placeholder{
+    font-weight: bold;
+}
+.formField h3{
+    color: white;
+    font-size: 30px;
+}
+.fa-quote-left{
+    position: relative;
+    top: 15px;
+    left: 0px;
+    font-size: 70px;
+    font-style: italic;
+    color: silver;
+}
+.memberD img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.memberD img:before{
+    content: '';
+    position: absolute;
+    width: 200px
+}
+.c1,.c2,.c3,.c4{
+    padding: 16px;
+    border-right: 1px solid lightgray;
+    height: 120px;
+}
+.c3 i{
+    margin-right: 25px;
+    color: black;
+}
+.c3 i:hover{
+    color: rgb(245, 143, 128);
+}
+.parallax{
+    background-image: url(../images/Gym4.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+}
+@media screen and (max-width:480px){
+    .parallax .caption h1{
+        color: chocolate;
+    }
+}
+.caption{
+    margin: 0 auto;
+    width: 70%;
+}
+.caption h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+.caption p{
+    color: white;
+    font-size: 15px;
+}
+.memberD img:hover{
+    transform: scale(1.1,1.1);
+    transition: all 0.5 ease;
+}
+.item h2{
+    position: absolute;
+    background: none;
+    color: orangered;
+    bottom: 60px;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.successPage{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.congratulations{
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+}
+.alert-success{
+    margin: auto 50px;
+    border-left: 3px solid green;
+}
+
+#content{
+    text-align: center;
+}
+#content h1{
+    text-align: center;
+    font-size: 80px;
+}
+marquee{
+    width: 100%;
+}
+marquee img{
+    height: 200px;
+}
+footer{
+    width: 100%;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+}
+.footerQuote{
+    width: 60%;
+    position: relative;
+    padding-bottom: 34px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+@media screen and (max-width:480px){
+    .footerQuote{
+        width:100%;
+    }
+    .footerQuote p{
+        font-size: 25px;
+    }
+}
+.footerQuote p{
+    font-style: italic;
+    font-size: 15px;
+    line-height: 25px;
+    border-left: 2px solid rgb(245, 143, 128);
+    border-right: 2px solid rgb(245, 143, 128);
+    font-family: 'Oleo Script', cursive;
+}
+.footerDetails i{
+    text-align: center;
+    font-size: 30px;
+    padding: 0 30px
+}
+.socialM{
+    display: inline-block;
+}
+.socialM .fa{
+    font-size: 35px;
+    color: white;
+    padding: 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+.socialM .fa-twitter-square:hover{
+    color: #00a9e6;
+    border: 1px solid #00a9e6;
+}
+.socialM .fa-facebook-square:hover{
+    color: #4b67a1;
+    border: 1px solid #4b67a1;
+}
+.socialM .fa-instagram:hover{
+    color: #c32aa3;
+    border: 1px solid #c32aa3;
+}
+.socialM .fa-google-plus-square:hover{
+    color:  #df4a32;
+    border: 1px solid #df4a32;
+}
+    .footerNav{
+    border-radius: 0;
+}
